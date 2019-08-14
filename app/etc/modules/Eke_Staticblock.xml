@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Eke_Staticblock>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Eke_Staticblock>
+    </modules>
+</config>

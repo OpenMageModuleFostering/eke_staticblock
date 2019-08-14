@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<layout>
+
+    <adminhtml_system_config_edit>
+        <reference name="head">
+             <action method="addItem" ifconfig="eke_staticblock/static/enabled">
+			    <type>skin_css</type>
+                <name>css/eke/staticblock.css</name>
+            </action>
+        </reference>
+    </adminhtml_system_config_edit>
+	
+	 <adminhtml_cms_page_index>
+        <reference name="head">
+             <action method="addItem" ifconfig="eke_staticblock/static/enabled">
+			    <type>skin_css</type>
+                <name>css/eke/staticblock.css</name>
+            </action>
+        </reference>
+    </adminhtml_cms_page_index>
+	
+	<adminhtml_cms_block_index>
+        <reference name="head">
+             <action method="addItem" ifconfig="eke_staticblock/static/enabled">
+			    <type>skin_css</type>
+                <name>css/eke/staticblock.css</name>
+            </action>
+        </reference>
+    </adminhtml_cms_block_index>
+ 
+</layout>

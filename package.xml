@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eke_Staticblock</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Quickly filter CMS Pages and Static Blocks by content to locate which one is being used by your store.</summary>
+    <description>This module adds a new column to the CMS Static Block and CMS Pages grid allowing you to see and filter by content.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Dane Del Valle</name><user>ekedigital</user><email>dane@ekedigital.com</email></author></authors>
+    <date>2016-09-28</date>
+    <time>01:27:29</time>
+    <contents><target name="magecommunity"><dir name="Eke"><dir name="Staticblock"><dir name="Block"><dir name="Adminhtml"><file name="About.php" hash="b329ad42f60c49a141afb6ca54d8b242"/><dir name="Cms"><dir name="Block"><file name="Grid.php" hash="6a058358b5dc0600a8d39ddae45a7e0c"/></dir><dir name="Page"><file name="Grid.php" hash="39f5141949a8bd6e5f32f41e69473998"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="c532c611ec8c7e37a0715c067f6c3d20"/></dir><dir name="etc"><file name="adminhtml.xml" hash="68e9b90b113768e0ade0e20da721859b"/><file name="config.xml" hash="b6c14184a8999971ed2afb1b3717d2e8"/><file name="system.xml" hash="28b37dee5f63e894c7d31526491f8e65"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eke_Staticblock.xml" hash="009bdd81f472c1c7f72b92c73be232be"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="eke_staticblock.xml" hash="78c4429465bbcbd8878b8c987b26fd93"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="css"><dir name="eke"><file name="staticblock.css" hash="fbeddada843c32f499b87e042d43a39f"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Helper_Abstract</name><channel>community</channel><min>1.6</min><max>1.9</max></package></required></dependencies>
+</package>
